@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Create CV | Waqas Computers</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(function($){
+   $("#dobss").mask("99-99-9999",{placeholder:"dd-mm-yyyy"});
+   $("#mobile").mask("9999-9999999");
+   $("#cnic").mask("99999-9999999-9");
+   $("#ssn").mask("999-99-9999");
+});
+    </script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><span>Blue</span>Bottle <small>New form of design</small></a></h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="text_header">
+        <p>Create Online CVs, Portfolios, Letter PADs, PDF Files etc </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="headert_text_resize_bg">
+      <div class="headert_text_resize"> <img src="images/header_text_img.jpg" alt="" width="356" height="249" />
+        <div class="textarea">
+          <h2>Feel the magic of <a href="#">Waqas Computers</a><br />
+            <span>Think different, think Solutions.</span></h2>
+          <p>A little work of<br />
+            WAQAS Computer Centre Lodhran</p>
+          <ul>
+            <li>Been the Computer industry's standard Place.</li>
+            <li>Simple and Designed Templates.</li>
+            <li>Every Thing what You Need.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="left_resize block">
+        <div class="left box">
+          <h2><span>Create</span> CV</h2>
+          <p class="big bgline">Please Fill Up Form with Correct Details and Follow These Steps</p>
+          <p>Step 1: Fill Up Form and Submit the Information.</p>
+          <p>Step 2: Select Design & Template and Proceed.</p>
+          <p>Step 3: Select CV Format / Upload Picture</p>
+          <p>Final Step: Print or Download your CV.</p>
+          <p>Please Note that you can always access your created record by entering CV ID in CV homepage..</p>
+          <form action="#" method="post" id="contactform">
+            <ol>
+              <li>
+                <label for="name">Your Name*</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="name">Father Name*</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="name">CNIC No*</label>
+                <input id="cnic" name="cnic" class="text" placeholder="CNIC or Form-B (xxxxx-xxxxxxx-x)" />
+              </li>
+              <li>
+                <label for="name">Contact Number* (Mobile No)</label>
+                <input id="mobile" name="mobile" class="text" placeholder="Mobile No (0300-1234567)"/>
+              </li>
+              <li>
+                <label for="name">Date of Birth*</label>
+                <input id="dob" name="dob" type="date" class="text"/>
+              </li>
+              <li>
+                <label for="name">Domicile* (City/District Name)</label>
+                <select id="district_id"
+												name="district_id"
+												onchange="javascript: dropdownlist(this.options[this.selectedIndex].value);"
+												promptmessage="Select district"
+												invalidmessage="You must specify your district"
+												
+											>
+                      <option selected="selected"></option>
+                        <option value="42">Abbottabad</option>
+                        <option value="132">Astore</option>
+                        <option value="7">Attock</option>
+                        <option value="106">Awaran</option>
+                        <option value="73">Badin</option>
+                        <option value="94">Bagh</option>
+                        <option value="8">Bahawalnagar</option>
+                        <option value="9">Bahawalpur</option>
+                        <option value="65">Bajaur Agency</option>
+                        <option value="66">Baltistan</option>
+                        <option value="43">Bannu</option>
+                        <option value="107">Barkhan</option>
+                        <option value="44">Batgram</option>
+                        <option value="10">Bhakkar</option>
+                        <option value="96">Bhimber</option>
+                        <option value="108">Bolan</option>
+                        <option value="45">Buner</option>
+                        <option value="109">Chagai</option>
+                        <option value="11">Chakwal</option>
+                        <option value="46">Charsadda</option>
+                        <option value="47">Chitral</option>
+                        <option value="140">Cholistan Desert</option>
+                        <option value="74">Dadu</option>
+                        <option value="110">Dera Bugti</option>
+                        <option value="12">DG Khan</option>
+                        <option value="49">DI Khan</option>
+                        <option value="97">Diamir</option>
+                        <option value="144">Dingarh</option>
+                        <option value="48">Dir</option>
+                        <option value="141">Drawer Fort</option>
+                        <option value="13">Faisalabad</option>
+                        <option value="111">Gawadar</option>
+                        <option value="98">Ghanche</option>
+                        <option value="99">Ghizer</option>
+                        <option value="75">Ghotki</option>
+                        <option value="100">Gilgit</option>
+                        <option value="14">Gujranwala</option>
+                        <option value="15">Gujrat</option>
+                        <option value="16">Hafizabad</option>
+                        <option value="50">Hangu</option>
+                        <option value="51">Haripur</option>
+                        <option value="76">Hyderabad</option>
+                        <option value="17">Islamabad</option>
+                        <option value="77">Jacobabad</option>
+                        <option value="112">Jafarabad</option>
+                        <option value="113">Jhal Magsi</option>
+                        <option value="18">Jhang</option>
+                        <option value="19">Jhelum</option>
+                        <option value="114">Kalat</option>
+                        <option value="78">Karachi Central</option>
+                        <option value="79">Karachi East</option>
+                        <option value="80">Karachi South</option>
+                        <option value="81">Karachi West</option>
+                        <option value="52">Karak</option>
+                        <option value="20">Kasur</option>
+                        <option value="115">Kech/Turbat</option>
+                        <option value="82">Khairpur</option>
+                        <option value="21">Khanewal</option>
+                        <option value="116">Kharan</option>
+                        <option value="22">Khushab</option>
+                        <option value="117">Khuzdar</option>
+                        <option value="67">Khyber Agency</option>
+                        <option value="118">Killa Abdullah</option>
+                        <option value="119">Killa Saifullah</option>
+                        <option value="53">Kohat</option>
+                        <option value="54">Kohistan</option>
+                        <option value="120">Kohlu</option>
+                        <option value="101">Kotli</option>
+                        <option value="68">Kurram Agency</option>
+                        <option value="23">Lahore</option>
+                        <option value="55">Lakki Marwat</option>
+                        <option value="83">Larkana</option>
+                        <option value="121">Lasbela</option>
+                        <option value="24">Leiah</option>
+                        <option value="25">Lodhran</option>
+                        <option value="122">Loralai</option>
+                        <option value="26">M B Din</option>
+                        <option value="56">Malakand</option>
+                        <option value="84">Malir</option>
+                        <option value="57">Mansehra</option>
+                        <option value="58">Mardan</option>
+                        <option value="124">Mastung</option>
+                        <option value="27">Mianwali</option>
+                        <option value="102">Mirpur</option>
+                        <option value="85">Mirpur Khas</option>
+                        <option value="69">Mohemmend Agency</option>
+                        <option value="143">Mojgarh</option>
+                        <option value="28">Multan</option>
+                        <option value="123">Musa Khel</option>
+                        <option value="103">Muzaffarabad</option>
+                        <option value="29">Muzaffargarh</option>
+                        <option value="133">Nankana Sahib</option>
+                        <option value="30">Narowal</option>
+                        <option value="125">Nasirabad</option>
+                        <option value="87">Naushahro Feroze</option>
+                        <option value="88">Nawab Shah</option>
+                        <option value="59">Nowshera</option>
+                        <option value="70">NW Agency</option>
+                        <option value="31">Okara</option>
+                        <option value="71">Orakzai Agency</option>
+                        <option value="32">Pakpattan</option>
+                        <option value="126">Panjgur</option>
+                        <option value="60">Peshawar</option>
+                        <option value="127">Pishin</option>
+                        <option value="104">Poonch</option>
+                        <option value="128">Quetta</option>
+                        <option value="33">Rahim Yar Khan</option>
+                        <option value="34">Rajan Pur</option>
+                        <option value="35">Rawalpindi</option>
+                        <option value="36">Sahiwal</option>
+                        <option value="142">Salamsar</option>
+                        <option value="89">Sanghar</option>
+                        <option value="37">Sargodha</option>
+                        <option value="61">Shangla</option>
+                        <option value="38">Sheikhupura</option>
+                        <option value="90">Shikarpur</option>
+                        <option value="39">Sialkot</option>
+                        <option value="129">Sibbi</option>
+                        <option value="105">Sudhnoti</option>
+                        <option value="91">Sukkur</option>
+                        <option value="72">SW Agency</option>
+                        <option value="62">Swabi</option>
+                        <option value="63">Swat</option>
+                        <option value="40">T T Sing</option>
+                        <option value="145">Tando Muhammad Khan</option>
+                        <option value="64">Tank</option>
+                        <option value="86">Tarparker/Mithi</option>
+                        <option value="92">Thatta</option>
+                        <option value="136">Tribal Areas adjoining Bannu Dist</option>
+                        <option value="138">Tribal Areas adjoining D.I.Khan Dist</option>
+                        <option value="135">Tribal Areas adjoining Kohat Dist</option>
+                        <option value="137">Tribal Areas adjoining Lakki Marwat Dist</option>
+                        <option value="134">Tribal Areas adjoining Peshawar Dist</option>
+                        <option value="139">Tribal Areas adjoining Tank Dist</option>
+                        <option value="93">Umerkot</option>
+                        <option value="41">Vehari</option>
+                        <option value="130">Zhob</option>
+                        <option value="131">Ziarat</option>
+                      </select>
+                
+              </li>
+              <li>
+                <label for="email">E-Mail*</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="email">Relegion*</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="email">Gender</label>
+                <select name="marital">
+                    <option value="he">Male</option>
+                    <option value="she">Female</option>
+                    <option value="heshe">Shemale</option>
+                </select>
+              </li>
+              <li>
+                <label for="email">Marital Status</label>
+                <select name="marital">
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                </select>
+              </li>
+              <li>
+                <label for="company">Website</label>
+                <input id="company" name="company" class="text" />
+              </li>
+              <li>
+                <label for="message">Address*</label>
+                <textarea id="message" name="message" rows="6" cols="50"></textarea>
+              </li>
+              <li class="buttons">
+                <input type="submit" name="imageField" id="imageField"  value="Submit & Continue" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="right_resize">
+        <div class="right block">
+          <h2><span>What</span> They Say</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui off icia deserunt mollit anim id estlaborum.</p>
+          <img src="images/img_1.jpg" width="108" height="122" alt="" />
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class="right block">
+          <h2>Search</h2>
+          <p>Over 6,000+ Premium Web Templates </p>
+          <div class="search">
+            <form id="form1" name="form1" method="post" action="#">
+              <span>
+              <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+              </span>
+              <input name="b" type="image" src="images/search.gif" class="button" />
+            </form>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="FBG_bg">
+    <div class="FBG">
+      <div class="blok">
+        <h2><span>About</span></h2>
+        <img src="images/fbg_1.gif" alt="" width="78" height="84" />
+        <p><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing urna.</p>
+        <a href="#"><img src="images/lean_more.gif" alt="" width="101" height="28" border="0" /></a></div>
+      <div class="blok">
+        <h2><span>Lorem</span> Ipsum</h2>
+        <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</strong> Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. <br />
+          Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+        <ul>
+          <li><a href="#">consequat molestie</a></li>
+          <li><a href="#">sem justo</a></li>
+          <li><a href="#">semper</a></li>
+          <li><a href="#">magna sed purus</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">consequat molestie</a></li>
+          <li><a href="#">sem justo</a></li>
+          <li><a href="#">semper</a></li>
+          <li><a href="#">magna sed purus</a></li>
+        </ul>
+      </div>
+      <div class="blok">
+        <h2><span>Image</span> Gallery</h2>
+        <img src="images/bannre_1.gif" alt="" width="68" height="68" /><img src="images/bannre_1.gif" alt="" width="68" height="68" /><img src="images/bannre_1.gif" alt="" width="68" height="68" /><img src="images/bannre_1.gif" alt="" width="68" height="68" /><img src="images/bannre_1.gif" alt="" width="68" height="68" /><img src="images/bannre_1.gif" alt="" width="68" height="68" />
+        <div class="clr"></div>
+        <h2>Lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">MyWebSite</a>.</p>
+      <p class="rf">Layout by Hot <a href="http://www.hotwebsitetemplates.net/">Website Templates</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</html>
